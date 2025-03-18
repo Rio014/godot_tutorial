@@ -46,7 +46,7 @@ func _process(delta):
 
 
 
-func _on_body_entered(body:Node2D):
+func _on_body_entered(_body:Node2D):
     hide() # player disappear after being hit
     hit.emit()
 
